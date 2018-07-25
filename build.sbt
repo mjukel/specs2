@@ -81,7 +81,7 @@ lazy val commonJsSettings = Seq(
 
 lazy val specs2Version = settingKey[String]("defines the current specs2 version")
 lazy val scalazVersion = settingKey[String]("defines the current scalaz version")
-lazy val shapelessVersion = "2.3.3"
+lazy val shapelessVersion = "2.4.0-KH"
 lazy val catsVersion = "1.1.0"
 
 def moduleSettings(name: String) =
@@ -139,12 +139,12 @@ lazy val common = crossProject(JSPlatform, JVMPlatform).in(file("common")).
 ).
   jsSettings(depends.jsTest, moduleJsSettings("common"),
     libraryDependencies ++= Seq(
-      "org.scalacheck" %%% "scalacheck" % "1.14.0" % "test"
+      "org.scalacheck" %%% "scalacheck" % "1.14.1-SNAPSHOT-KH" % "test"
     )
   ).
   jvmSettings(moduleJvmSettings("common"),
     libraryDependencies ++= Seq(
-      "org.scalacheck" %% "scalacheck" % "1.14.0" % "test"
+      "org.scalacheck" %% "scalacheck" % "1.14.1-SNAPSHOT-KH" % "test"
     )
   )
 

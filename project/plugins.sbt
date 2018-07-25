@@ -1,4 +1,4 @@
-addSbtPlugin("org.scala-js"       % "sbt-scalajs"              % "0.6.23")
+addSbtPlugin("org.scala-js"       % "sbt-scalajs"              % "1.0.0-M3")
 addSbtPlugin("org.portable-scala" % "sbt-crossproject"         % "0.4.0")
 addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "0.4.0")
 addSbtPlugin("com.jsuereth"       % "sbt-pgp"                  % "1.1.1")
