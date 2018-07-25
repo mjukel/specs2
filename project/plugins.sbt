@@ -1,6 +1,6 @@
 addSbtPlugin("org.scala-js"       % "sbt-scalajs"              % "1.0.0-M3")
-addSbtPlugin("org.portable-scala" % "sbt-crossproject"         % "0.4.0")
-addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "0.4.0")
+addSbtPlugin("org.portable-scala" % "sbt-crossproject"         % "0.5.1-KH")
+addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "0.5.1-KH")
 addSbtPlugin("com.jsuereth"       % "sbt-pgp"                  % "1.1.1")
 addSbtPlugin("com.typesafe.sbt"   % "sbt-ghpages"              % "0.6.2")
 addSbtPlugin("com.typesafe.sbt"   % "sbt-site"                 % "1.3.2")
