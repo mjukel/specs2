@@ -28,7 +28,7 @@ object depends {
         scalaJSStage in Test := FastOptStage)
 
   def scalaParser = Def.setting {
-    Seq("org.scala-lang.modules" %%% "scala-parser-combinators" % "1.1.2-SNAPSHOT")
+    Seq("org.scala-lang.modules" %%% "scala-parser-combinators" % "1.1.2-KH")
   }
 
   def scalaXML = Def.setting {
